@@ -277,3 +277,5 @@ INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VA
 49. Change the **$username** variable to '**root**'.
 50. Change the **$password** variable to ''.
 51. Change the **$database** variable to '**ctec**'.
+52. Now launch the PHP **example01.php** script and you should see the data from the **local** (not the AWS) student table.
+53. Once you complete this step, **submit a screenshot** of the **PHP script running in your browser** and **submit it on Canvas**.
