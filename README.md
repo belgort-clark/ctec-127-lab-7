@@ -65,6 +65,8 @@
 37. Delete the line window that says ```SELECT * FROM ‘students’ WHERE 1```
 38. Now copy the lines below into your clipboard and paste them into the window:
 
+```
+
 INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Finn","Leonard","molestie.tellus@Proinsed.com","(769) 870-7056","2174");
 
 INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Ivana","Gross","sagittis@Duis.edu","(154) 270-3158","6904");
@@ -263,6 +265,7 @@ INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VA
 
 INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Karina","Galloway","in.aliquet.lobortis@ipsumdolor.ca","(950) 809-1391","3473");
 
+```
 
 39. Once the data is pasted in, click on the **Go** button in the lower right hand corner.
 40. Now click on the “Browse” tab and you should see all of the data that was inserted into the student table.
