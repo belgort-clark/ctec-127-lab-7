@@ -276,9 +276,9 @@ INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VA
 45. Now that you have a local database and table created it's time to **revisit the code from Module 5 - Unit 2**.
 46. Make sure that you have **cloned the repo** from **Module 5 - Unit 2**.
 47. You will need to modify the database connection info in the **mysqli_connect.inc.php** file to have it point to your MySQL **ctec student** table and **not the Amazon database** in the cloud.
-48. Change the **$host** variable to '**localhost'**.
-49. Change the **$username** variable to '**root**'.
-50. Change the **$password** variable to ''.
-51. Change the **$database** variable to '**ctec**'.
-52. Now launch the PHP **example01.php** script and you should see the data from the **local** (not the AWS) student table.
-53. Once you complete this step, **submit a screenshot** of the **PHP script running in your browser** and **submit it on Canvas**.
+	- Change the **$host** variable to '**localhost'**.
+	- Change the **$username** variable to '**root**'.
+	- Change the **$password** variable to ''.
+	- Change the **$database** variable to '**ctec**'.
+48. Now launch the PHP **example01.php** script and you should see the data from the **local** (not the AWS) student table.
+49. Once you complete this step, **submit a screenshot** of the **PHP script running in your browser** and **submit it on Canvas**.
