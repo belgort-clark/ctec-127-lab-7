@@ -277,8 +277,8 @@ INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VA
 46. Make sure that you have **cloned the repo** from **Module 5 - Unit 2**.
 47. You will need to modify the database connection info in the **mysqli_connect.inc.php** file to have it point to your MySQL **ctec student** table and **not the Amazon database** in the cloud.
 	- Change the **$host** variable to '**localhost'**.
-	- Change the **$username** variable to '**root**'.
+	- Change the **$user** variable to '**root**'.
 	- Change the **$password** variable to ''.
-	- Change the **$database** variable to '**ctec**'.
-48. Now launch the PHP **example01.php** script and you should see the data from the **local** (not the AWS) student table.
+	- Change the **$dbname** variable to '**ctec**'.
+48. Now launch the PHP **pdo_example01.php** script and you should see the data from the **local** (not the AWS) student table.
 49. Once you complete this step, **submit a screenshot** of the **PHP script running in your browser** and **submit it on Canvas**.
