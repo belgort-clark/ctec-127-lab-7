@@ -1,4 +1,4 @@
-# Module 5 - Lab No. 7
+# Module 5 - Lab No. 8
 
 ## Learning Objectives
 - Use phpMyAdmin to create database tables
