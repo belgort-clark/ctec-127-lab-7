@@ -3,7 +3,7 @@
 ## Learning Objectives
 - Use phpMyAdmin to create database tables
 - Learn how to create database tables
-- Learn how to create table columns
+- **Learn** how to create table columns
 - Learn how to use phpMyAdmin to create data records
 - Learn how to query a database table
 - Learn how to upload data to a database table
@@ -32,11 +32,11 @@
 12. Click the **Go** button to the lower right-hand to create the table. It make take a second or two to create the table.
 13. You should now see a screen that contains a lot of blank fields. These are the table columns that you will need to define. You will need to be super careful when creating the table columns. Let's do this.
 14. Here is a list of the fields you will need to create along with their data type and other information. **Note the case** of the column names.
-		- Name: first_name, Type: VARCHAR(20)
-		- last_name, VARCHAR(40)
-		- email, VARCHAR(60)
-		- student_id, SMALLINT(4), Index/Primary
-		- phone, VARCHAR(20)
+	- Name: first_name, Type: VARCHAR(20)
+	- last_name, VARCHAR(40)
+	- email, VARCHAR(60)
+	- student_id, SMALLINT(4), Index/Primary
+	- phone, VARCHAR(20)
 15. Now click on the Save button in the lower right. Your table should now be created. If you run into an error, call the instructor over.
 16. Now click on the **ctec** database student table name in the top navigation. You will see a screen that has an **SQL statement** on it.
 17. Take note of the text that says **Create PHP Code**. This text is towards the right side of the screen. **Click on it** to **see the PHP code** that would be used to **select all of the records** from the **student**. Click on the words **Without PHP Code** to **hide the code**.
