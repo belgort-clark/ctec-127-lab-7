@@ -1,6 +1,7 @@
 # Module 5 - Lab No. 8
 
 ## Learning Objectives
+
 - Use phpMyAdmin to create database tables
 - Learn how to create database tables
 - **Learn** how to create table columns
@@ -11,53 +12,55 @@
 
 ## Assignment Details
 
-1. Launch **phpMyAdmin** using [http://localhost/phpmyadmin](http://localhost/phpmyadmin). If you are running **XAMPP** on a different port number you will need to change the URL accordingly.
-2. Ensure that the **Apache** and **MySQL** processes are both started and running in **XAMPP**.
-3. Explore each the **phpMyAdmin** interface by doing the following:
+1. Ensure that the **Apache** and **MySQL** processes are both started and running in **XAMPP**.
+2. Launch **phpMyAdmin** using [http://localhost/phpmyadmin](http://localhost/phpmyadmin). If you are running **XAMPP** on a different port number you will need to change the URL accordingly.
+3. Explore the **phpMyAdmin** interface by doing the following:
 	- In the left navigator, explore the icons located beneath the **phpMyAdmin** logo.
 	- In the left navigator, explore the tree view of the databases on your **MySQL** server installation.
-	- Pay careful attention to the **names** of the **databases** and the **names** of the **tables** used.
-	- Now in the main **phpMyAdmin** window explore the **General settings** and **Appearance settings**. Change the **theme** to **Original** and notice how the theme affects the **phpMyAdmin** interface.
-	- Also, explore the **Font Size** option.
+	- Pay attention to the **names** of the **databases** and the **names** of the **tables** used.
+	- In the main **phpMyAdmin** window explore the **General settings** and **Appearance settings**. Change the **theme** to **Original** and notice how the theme affects the **phpMyAdmin** interface.
+	- Also, explore the **Font Size** option if it is available.
 	- Now explore the **More settings** option.
 	- Click on the **Manage Your Settings** button to get back to the settings main area.
-4. Now click on the **Home icon** in the **left navigator** to return to the **phpMyAdmin** home page.
-5. Now click on the **Databases tab**.
-6. Now it's time to **create a new database**. Create a new database named **ctec**. Enter the database name in the input field that has the helper text **Database name**. When you create the database, leave the “Collation” field set to it's default value.
+4. Click on the **Home icon** in the **left navigator** to return to the **phpMyAdmin** home page. It's in the upper-left corner of the interface.
+5. Click on the **Databases tab**.
+6. Now it's time to **create a new database**. Create a new database named **ctec**. Enter the database name in the input field that has the helper text **Database name**. When you create the database, leave the “Collation” field set to it's default "Colation" value.
 7. **Click** on the **Create** button to create the database.
 8. If the database was **successfully created**, you should see a quick popup message letting you know so. You will then be brought to the new **ctec** database in **phpMyAdmin**.
 9. You can also access the **ctec** database from the list of databases in the tree view in the left navigation panel.
 10. Note that the database is empty and has no tables.
-11. Now **create a table** named **student**. For the number of columns enter 5.
+11. Now **create a database table** named **student**. For the number of columns enter 5.
 12. Click the **Go** button to the lower right-hand to create the table. It make take a second or two to create the table.
-13. You should now see a screen that contains a lot of blank fields. These are the table columns that you will need to define. You will need to be super careful when creating the table columns. Let's do this.
-14. Here is a list of the fields you will need to create along with their data type and other information. **Note the case** of the column names.
-	- Name: first_name, Type: VARCHAR(20)
-	- last_name, VARCHAR(40)
-	- email, VARCHAR(60)
-	- student_id, SMALLINT(4), Index/Primary
-	- phone, VARCHAR(20)
-15. Now click on the Save button in the lower right. Your table should now be created. If you run into an error, call the instructor over.
-16. Now click on the **ctec** database student table name in the top navigation. You will see a screen that has an **SQL statement** on it.
+13. You should see a screen that contains a lot of blank fields. These are the table columns that you will need to define. You will need to be super careful when creating the table columns. Let's do this.
+14. Here are a list of the fields you will need to create along with their data type and other information. **Note the case** of the column names.
+
+ - first_name, Type: VARCHAR(20)
+ - last_name, VARCHAR(40)
+ - email, VARCHAR(60)
+ - student_id, SMALLINT(4), Index/Primary
+ - phone, VARCHAR(20)
+
+15. Click on the **Save** button in the lower right. Your table should now be created. If you run into an error, contact the instructor.
+16. Now click on the **ctec** database student table name in the top navigation. You should see a screen that has an **SQL statement** on it.
 17. Take note of the text that says **Create PHP Code**. This text is towards the right side of the screen. **Click on it** to **see the PHP code** that would be used to **select all of the records** from the **student**. Click on the words **Without PHP Code** to **hide the code**.
-18. To **review the structure** of your table click on the **Structure** tab.
+18. To **review the structure** of your database table click on the **Structure** tab.
 19. On this page you will see a list of all your **table columns** along with many options. Carefully review these options and note what they do.
 20. Your **student_id** column should have the **key colored gold**. This means that it has been defined as the **primary key**. You did this when you created the table.
-21. Pay particular attention to the **Change option**.
+21. Pay particular attention to the **Change option**. If you ever have to use this feature, do it with great care.
 22. Explore the **Space usage** section of the page. You can use this to see **how much data storage** is being used for the data in your table. You may need to **scroll down** to see it.
 23. If you need to **add columns to your table** you can do this by using the **Add ___ column(s)** section of the page. You don’t need to do anything with this now. Just know it is there.
-24. You are now going to **insert some data** into the **student table**. Typically you would do this programmatically through **PHP** and **forms**. In this lab exercise you will be doing it manually. Later on in this lab you will bulk load data.
+24. You are now going to **insert some data** into the **student table**. Typically you would do this programmatically through **PHP** and HTML **forms**. In this lab exercise you will be doing it manually. Later on in this lab you will bulk load data.
 25. By default, **phpMyAdmin** gives you the ability to **enter two rows of data at a time**. You should see **5 fields on the screen to be filled in**. Before you enter any data, click on the **Function dropdown**. You won’t be using these in this lab, but you should know that they could be used to **manipulate the data being entered**.
 26. Now **enter 5 sets of data** into your student The **Go button** will **insert** the data into the table for you. **Note that you can enter two sets of data a time**. Be sure to **un-tick** the **Ignore** check box to do this. You can find it right after the first set of input fields.
 27. Note that there is an option to **Create PHP Code**. This will come in handy when you begin to include SQL code in your **PHP scripts**.
 28. You will also see the SQL that **phpMyAdmin** used to **insert the data into the student table**. Study the **SQL** and see if you can decipher what it means.
 29. Remember, click on the **Import** tab to enter more data if you would like.
-30. Now click on the **Browse** tab and you should see a screen that displays the **5 rows** of data that you entered.
+30. Click on the **Browse** tab and you should see a screen that displays the **5 rows** of data that you entered.
 31. Again, note the **SQL statement** that is used to display all of the records in your **student** table.
-32. Now click on the **Export** tab. This screen will allow you to **export data from you table to a file**. For this exercise do the following:
-	- **Export Method**: Set to **Quick**
-	- **Format**: Select **CSV** (Comma Separated Value)
-	- Click the **Go** button to run the export.
+32. Click on the **Export** tab. This screen will allow you to **export data from you table to a file**. For this exercise do the following:
+ - **Export Method**: Set to **Quick**
+ - **Format**: Select **CSV** (Comma Separated Value)
+ - Click the **Go** button to run the export.
 33. **Open** the **CSV file** in **Visual Studio Code** and you **should see** the **5 rows** of data from the **student table** separated by commas.
 34. The last part of this lab will be to **bulk upload** 99 rows of data into your **student table**. I have prepared a set of data using the [http://generatedata.com](http://generatedata.com) site. Visit this website and explore what it can do and how it can help you as a developer.
 35. In **phpMyAdmin** click on the **SQL tab**.
@@ -65,7 +68,7 @@
 37. Delete the line window that says ```SELECT * FROM ‘students’ WHERE 1```
 38. Now copy the lines below into your clipboard and paste them into the window:
 
-```
+```sql
 
 INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Finn","Leonard","molestie.tellus@Proinsed.com","(769) 870-7056","2174");
 
@@ -268,17 +271,17 @@ INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VA
 ```
 
 39. Once the data is pasted in, click on the **Go** button in the lower right hand corner.
-40. Now click on the “Browse” tab and you should see all of the data that was inserted into the student table.
+40. Click on the “Browse” tab and you should see all of the data that was inserted into the student table.
 41. You are almost done! One more thing to explore.
 42. Click on the **Browse** tab and scroll to the very bottom of the page and tick the **Check All** checkbox.
 43. To the right of the tick box click on the **Delete** link. Notice that phpMyAdmin will ask you whether or not you really want to delete all of the data. Don't delete it at this time. If you do delete it, you will have to reload it following the steps to bulk load the data.
 44. Note the **message that appeared** in a **green box** at the **top of the page**.
 45. Now that you have a local database and table created it's time to **revisit the code from Module 5 - Unit 2**.
-46. Make sure that you have **cloned the repo** from **Module 5 - Unit 2**.
-47. You will need to modify the database connection info in the **mysqli_connect.inc.php** file to have it point to your MySQL **ctec student** table and **not the Amazon database** in the cloud.
-	- Change the **$host** variable to '**localhost'**.
-	- Change the **$user** variable to '**root**'.
-	- Change the **$password** variable to ''.
-	- Change the **$dbname** variable to '**ctec**'.
-48. Now launch the PHP **pdo_example01.php** script and you should see the data from the **local** (not the AWS) student table.
+46. Make sure that you have **downloaded (not cloned) the repo** from **Module 5 - Unit 3**.
+47. You will need to modify the database connection info in the **db_connect.inc.php** file to have it point to your MySQL **ctec student** table and **not the Amazon database** in the cloud.
+    - Change the **$host** variable to '**localhost'**.
+    - Change the **$user** variable to '**root**'.
+    - Change the **$password** variable to ''.
+    - Change the **$dbname** variable to '**ctec**'.
+48. Now launch the PHP **student_data.php** script and you should see the data from the **local** (not the AWS) student table.
 49. Once you complete this step, **submit a screenshot** of the **PHP script running in your browser** and **submit it on Canvas**.
