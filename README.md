@@ -278,7 +278,7 @@ INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VA
 44. Note the **message that appeared** in a **green box** at the **top of the page**.
 45. Now that you have a local database and table created it's time to **revisit the code from Module 5 - Unit 2**.
 46. Make sure that you have **downloaded (not cloned) the repo** from **Module 5 - Unit 3**.
-47. You will need to modify the database connection info in the **db_connect.inc.php** file to have it point to your MySQL **ctec student** table and **not the Amazon database** in the cloud.
+47. You may need to modify the database connection info in the **db_connect.inc.php** file to have it point to your MySQL **ctec student** table and **not the Amazon database** in the cloud.
     - Change the **$host** variable to '**localhost'**.
     - Change the **$user** variable to '**root**'.
     - Change the **$password** variable to ''.
