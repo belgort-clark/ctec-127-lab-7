@@ -1,4 +1,4 @@
-# Module 5 - Lab No. 8
+# Module 5 - Lab No. 7
 
 ## Learning Objectives
 
@@ -15,13 +15,13 @@
 1. Ensure that the **Apache** and **MySQL** processes are both started and running in **XAMPP**.
 2. Launch **phpMyAdmin** using [http://localhost/phpmyadmin](http://localhost/phpmyadmin). If you are running **XAMPP** on a different port number you will need to change the URL accordingly.
 3. Explore the **phpMyAdmin** interface by doing the following:
-	- In the left navigator, explore the icons located beneath the **phpMyAdmin** logo.
-	- In the left navigator, explore the tree view of the databases on your **MySQL** server installation.
-	- Pay attention to the **names** of the **databases** and the **names** of the **tables** used.
-	- In the main **phpMyAdmin** window explore the **General settings** and **Appearance settings**. Change the **theme** to **Original** and notice how the theme affects the **phpMyAdmin** interface.
-	- Also, explore the **Font Size** option if it is available.
-	- Now explore the **More settings** option.
-	- Click on the **Manage Your Settings** button to get back to the settings main area.
+    - In the left navigator, explore the icons located beneath the **phpMyAdmin** logo.
+    - In the left navigator, explore the tree view of the databases on your **MySQL** server installation.
+    - Pay attention to the **names** of the **databases** and the **names** of the **tables** used.
+    - In the main **phpMyAdmin** window explore the **General settings** and **Appearance settings**. Change the **theme** to **Original** and notice how the theme affects the **phpMyAdmin** interface.
+    - Also, explore the **Font Size** option if it is available.
+    - Now explore the **More settings** option.
+    - Click on the **Manage Your Settings** button to get back to the settings main area.
 4. Click on the **Home icon** in the **left navigator** to return to the **phpMyAdmin** home page. It's in the upper-left corner of the interface.
 5. Click on the **Databases tab**.
 6. Now it's time to **create a new database**. Create a new database named **ctec**. Enter the database name in the input field that has the helper text **Database name**. When you create the database, leave the “Collation” field set to it's default "Colation" value.
@@ -34,11 +34,11 @@
 13. You should see a screen that contains a lot of blank fields. These are the table columns that you will need to define. You will need to be super careful when creating the table columns. Let's do this.
 14. Here are a list of the fields you will need to create along with their data type and other information. **Note the case** of the column names.
 
- - first_name, Type: VARCHAR(20)
- - last_name, VARCHAR(40)
- - email, VARCHAR(60)
- - student_id, SMALLINT(4), Index/Primary
- - phone, VARCHAR(20)
+    - first_name, Type: VARCHAR(20)
+    - last_name, VARCHAR(40)
+    - email, VARCHAR(60)
+    - student_id, SMALLINT(4), Index/Primary
+    - phone, VARCHAR(20)
 
 15. Click on the **Save** button in the lower right. Your table should now be created. If you run into an error, contact the instructor.
 16. Now click on the **ctec** database student table name in the top navigation. You should see a screen that has an **SQL statement** on it.
@@ -58,9 +58,9 @@
 30. Click on the **Browse** tab and you should see a screen that displays the **5 rows** of data that you entered.
 31. Again, note the **SQL statement** that is used to display all of the records in your **student** table.
 32. Click on the **Export** tab. This screen will allow you to **export data from you table to a file**. For this exercise do the following:
- - **Export Method**: Set to **Quick**
- - **Format**: Select **CSV** (Comma Separated Value)
- - Click the **Go** button to run the export.
+    - **Export Method**: Set to **Quick**
+    - **Format**: Select **CSV** (Comma Separated Value)
+    - Click the **Go** button to run the export.
 33. **Open** the **CSV file** in **Visual Studio Code** and you **should see** the **5 rows** of data from the **student table** separated by commas.
 34. The last part of this lab will be to **bulk upload** 99 rows of data into your **student table**. I have prepared a set of data using the [http://generatedata.com](http://generatedata.com) site. Visit this website and explore what it can do and how it can help you as a developer.
 35. In **phpMyAdmin** click on the **SQL tab**.
