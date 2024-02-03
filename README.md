@@ -1,10 +1,10 @@
-# Module 5 - Lab No. 7
+# Module 5 - Lab No. 6
 
 ## Learning Objectives
 
 - Use phpMyAdmin to create database tables
 - Learn how to create database tables
-- **Learn** how to create table columns
+- Learn how to create table columns
 - Learn how to use phpMyAdmin to create data records
 - Learn how to query a database table
 - Learn how to upload data to a database table
@@ -34,7 +34,7 @@
 13. You should see a screen that contains a lot of blank fields. These are the table columns that you will need to define. You will need to be super careful when creating the table columns. Let's do this.
 14. Here are a list of the fields you will need to create along with their data type and other information. **Note the case** of the column names.
 
-    - first_name, Type: VARCHAR(20)
+    - first_name, VARCHAR(20)
     - last_name, VARCHAR(40)
     - email, VARCHAR(60)
     - student_id, SMALLINT(4), Index/Primary
@@ -70,9 +70,9 @@
 
 ```sql
 
-INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Finn","Leonard","molestie.tellus@Proinsed.com","(769) 870-7056","2174");
+INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Finnigan","Leonard","molestie.tellus@Proinsed.com","(769) 870-7056","2174");
 
-INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Ivana","Gross","sagittis@Duis.edu","(154) 270-3158","6904");
+INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Ivana","Grossman","sagittis@Duis.edu","(154) 270-3158","6904");
 
 INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Lydia","Kramer","cursus@posuerevulputatelacus.ca","(849) 748-0865","9934");
 
@@ -266,7 +266,7 @@ INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VA
 
 INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Ruth","Ortiz","mus.Aenean.eget@mauriseuelit.ca","(679) 346-5687","7769");
 
-INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Karina","Galloway","in.aliquet.lobortis@ipsumdolor.ca","(950) 809-1391","3473");
+INSERT INTO `student` (`first_name`,`last_name`,`email`,`phone`,`student_id`) VALUES ("Karin","Galloways","in.aliquet.lobortis@ipsumdolor.ca","(950) 809-1391","3473");
 
 ```
 
